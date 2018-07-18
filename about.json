@@ -1,5 +1,19 @@
 {
   "name": "Mozilla Discourse Theme Dark forked from mozilla/discourse-mozilla-theme-dark",
   "about_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/README.md",
-  "license_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/LICENSE"
+  "license_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/LICENSE",
+   "color_schemes": {
+       "Dark": {
+         "primary": "#ffffff",
+          "secondary": "#2a2a2e",
+          "tertiary": "#0a84ff",
+          "quaternary": "#00c8d7",
+          "header background": "#2a2a2e",
+          "header primary": "#f9f9fa",
+          "highlight": "#b5007f",
+          "danger": "#ff0039",
+          "success": "#30e60b",
+          "love": "#ff1ad9"
+        }
+    }
 }
