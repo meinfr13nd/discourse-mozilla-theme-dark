@@ -1,19 +1,64 @@
 {
-  "name": "Mozilla Discourse Theme Dark forked from mozilla/discourse-mozilla-theme-dark",
-  "about_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/README.md",
-  "license_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/LICENSE",
-   "color_schemes": {
-       "Dark": {
-         "primary": "#ffffff",
-          "secondary": "#2a2a2e",
-          "tertiary": "#0a84ff",
-          "quaternary": "#00c8d7",
-          "header background": "#2a2a2e",
-          "header primary": "#f9f9fa",
-          "highlight": "#b5007f",
-          "danger": "#ff0039",
-          "success": "#30e60b",
-          "love": "#ff1ad9"
+  "theme": {
+    "name": "Mozilla Discourse Theme Dark",
+    "about_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/README.md",
+    "license_url": "https://github.com/mozilla/discourse-mozilla-theme-dark/blob/master/LICENSE",
+    "color_scheme": {
+      "name": "Dark Scheme",
+      "is_base": null,
+      "base_scheme_id": null,
+      "theme_name": "Mozilla Discourse Theme Dark",
+      "colors": [{
+          "name": "primary",
+          "hex": "ffffff",
+          "default_hex": "222222"
+        },
+        {
+          "name": "secondary",
+          "hex": "2a2a2e",
+          "default_hex": "ffffff"
+        },
+        {
+          "name": "tertiary",
+          "hex": "ff1ad9",
+          "default_hex": "0088cc"
+        },
+        {
+          "name": "quaternary",
+          "hex": "00c8d7",
+          "default_hex": "e45735"
+        },
+        {
+          "name": "header_background",
+          "hex": "2a2a2e",
+          "default_hex": "ffffff"
+        },
+        {
+          "name": "header_primary",
+          "hex": "f9f9fa",
+          "default_hex": "333333"
+        },
+        {
+          "name": "highlight",
+          "hex": "383838",
+          "default_hex": "ffff4d"
+        },
+        {
+          "name": "danger",
+          "hex": "ff0039",
+          "default_hex": "e45735"
+        },
+        {
+          "name": "success",
+          "hex": "30e60b",
+          "default_hex": "009900"
+        },
+        {
+          "name": "love",
+          "hex": "ff1ad9",
+          "default_hex": "fa6c8d"
         }
-    }
+      ]
+    },
+  }
 }
